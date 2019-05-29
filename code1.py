@@ -322,11 +322,11 @@ for i in range(500):
 
 
 n_x = 784
-n_h = 20
+n_h = 50
 n_y = 1
 layers_dims = (n_x, n_h, n_y)
 
-def two_layer_model(X, Y, layers_dims, learning_rate = 0.0075, num_iterations = 1500, print_cost=False):
+def two_layer_model(X, Y, layers_dims, learning_rate = 0.0055, num_iterations = 1500, print_cost=False):
     
     np.random.seed(1)
     grads = {}
